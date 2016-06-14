@@ -1,0 +1,263 @@
+h1,h2,h3,h4,h5,h6,figure,p{
+    margin:0;
+    padding: 0;
+}
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+body{
+    background:black;
+        
+    }
+
+#encabezado{
+    height:120px;
+    display:flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+
+}
+
+#encabezado figure{
+    margin: 0px;
+
+
+
+}
+
+#encabezado h1{font-size: 1.2em; text-decoration: underline;}
+#encabezado h2{font-size: 1em;}
+#encabezado h3{font-size: 0.9em;}
+#encabezado h4{font-size: 0.8em;}
+
+#contenido{
+    
+    }
+
+#nota_importante{
+    height:360px;
+    background-color: black;
+    margin: 20px 0;
+    
+    
+}    
+
+    
+}
+#notas_secundarias{
+    min-height:300px;
+    width: 700px;
+    display: inline-block;
+    background-color: black;
+    
+}
+#notas_secundarias article{
+    display: flex;
+    background-image: url('../images/separador.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.imagen-nota-secundaria {
+    position:static;
+}
+
+.sombra-imagen{
+   box-shadow: 0px 0px 5px #bdbdbd;    
+
+}
+.titulo-nota-secundaria{
+    font-size: 1.9em;
+    line-height: 0.8em;
+    font-variant: small-caps;
+     color: white;
+}
+.cuerpo-nota-secundaria{
+    padding-left: 9px;
+    padding-right: 5px;
+}
+.intro-nota-secundaria{
+    text-align: justify;
+    margin=80px 0 !important;
+
+
+
+}
+element.style {
+}
+.widget-container a:hover {
+    text-decoration: underline;
+}
+a:hover {
+    color: ghostwhite;
+}
+a {
+    color: darkgray;
+    text-decoration: none;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+
+
+#pie{
+    height: 150px;
+    
+
+text-align: center;
+margin-bottom: 10px;
+    
+}
+
+.facebook, .twiter{
+    width:  33px;
+    height: 33px;
+    display: inline-block;
+    text-indent: -9999px;
+    transition: 0.1s;
+}
+
+.facebook{
+    background: url('../images/facebook_twitter.png')0 0;
+}
+.twiter{
+    background: url('../images/facebook_twitter.png') -43px 0;
+}
+.facebook:hover{
+    background: url('../images/facebook_twitter.png') 0 -43px;
+}
+.twiter:hover{
+    background: url('../images/facebook_twitter.png') -43px -43px;
+}    
+
+#contenido_pie,  {
+max-width:480px !important;
+}
+
+
+#contenido_pie{
+width:90%;
+height:100%;
+}
+
+#contenido_pie  {
+width:90%;
+margin-left:5%;
+}
+
+#contenido_pie ul#pie_izquierda li {
+width:90%;
+padding-left:17px;
+}
+	
+	
+
+
+#menu {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+
+#menu ul {
+    padding: 0;
+    
+}
+
+#menu li {
+    list-style-type: none;
+    padding: 0px;
+    display: inline-block;
+    
+}
+
+
+#menu li a{
+    text-decoration: none;
+    color:white;
+    font: inherit;
+}
+
+
+#menu>ul>li{
+    display: inline-block;
+} 
+
+
+#menu>ul>li>a{
+    padding: 10px;
+    background-color: black;
+}
+
+
+#menu>ul>li>a:hover{
+    background-color:gray;
+    transition: 1s;
+}
+
+
+#menu li ul{
+    display:none;    
+}
+
+.boton {
+    background:gray;
+    display: inline-block;
+    padding: px;
+    box-shadow: 0px 1px 3px darkgray;
+    margin: 0px;
+}
+
+.boton>div{
+    padding: 1px 20px;
+    border: 1px solid rgba(255,255,255,.7);
+}
+
+.boton p {
+    color: white;
+    font-variant: small-caps;
+    font-size:  1.1em;
+}
+.boton-tattoos {
+    background: white;
+    display: inline-block;
+    padding: 3px;
+    box-shadow: 0px 1px 3px darkgray;
+    padding: 1px 20px;
+    border: 1px solid rgba(255,255,255,.7);
+     color: black;
+    font-variant: small-caps;
+    font-size:  1.9em;
+}
+
+
+.flexible {
+    display:flex;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#politicas{
+    text-align: center ;
+    border-top: 3px double lightgray;
+    border-bottom: 3px double lightgray;
+    padding: 5px 0;
+    color: darkgray;
+}
+
+#politicas abbr{
+    cursor: help;
+    border-bottom: 1px dotted lightgray;
+    
+}
